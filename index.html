@@ -9,10 +9,7 @@
     <title>Portfolio | Dave Lafortune</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/cover/">
-  
-    
-
-    
+   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
     <style>
@@ -71,25 +68,27 @@
     
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
   </head>
   <body class="bg-light ">
  
     
-<div class=" banner-wrap vh-100 vw-100 text-white">
+<div class=" banner-wrap vh-100 vw-100 text-white d-flex flex-column align-items-center justify-content-center ">
   <div class="overlay"></div>
-  <header class="text-white p-3 px-5">
+  <header class="text-white p-3 px-5 fixed-top">
     <div>
       <h3 class="float-md-start text-center">Portfolio</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
+        <a class="nav-link fw-bold py-1 px-0" href="#">About Us</a>
+        <a class="nav-link fw-bold py-1 px-0" href="#">projects</a>
         <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
       </nav>
     </div>
   </header>
-  <main class="d-flex flex-column align-items-center justify-content-center h-75 text-center">
+  <main class="text-center">
     <h1 class="display-1">I am Dave Lafortune</h1>
-    <p class="lead px-5">Full stack developper. Web designer. Coding instructor</p>
+    <span id="typed" class="lead px-5"></span>
   </main>
 </div>
 <section>
@@ -138,8 +137,32 @@
   </div>
 </section>
 <div class="container p-3"> 
-  <h1 class="text-center"><mark>Projects</mark></h1>
+  <h1 class="text-center"><mark class="bg-light">Projects</mark></h1>
   <div class="row">
+    <div class="col-md-4">
+      <div class="card mt-3">
+    <img src="./asset/C _ E _ Table Mountain Logo _ New Tagline _ Med.png" class="card-img-top" alt="..." class="img-fluid">
+    <div class="card-body">
+      <h5 class="card-title">Cause and Effect Smart Bar App</h5>
+      <p class="card-text text-muted">I built this with HTML, CSS, Javascript, jquery, bootstrap, PHP and MySql</p>
+      <a href="https://netlix-by-dave.netlify.app/" target="_blank" class="btn btn-secondary">View Website</a>
+      <a href="https://github.com/DaveCodingRitualist/netflix" class="btn btn-outline-secondary"><i class="bi bi-code-slash text-secondary"></i></a>
+    </div>
+  </div>
+     
+    </div>
+    <div class="col-md-4">
+      <div class="card mt-3">
+    <img src="./asset/twitter.png.crdownload" class="card-img-top" alt="..." class="img-fluid">
+    <div class="card-body">
+      <h5 class="card-title">Twitter Landing Page Clone</h5>
+      <p class="card-text text-muted">I built this with HTML and CSS</p>
+      <a href="https://twitter-clone-remix.netlify.app/" target="_blank" class="btn btn-secondary">View Website</a>
+      <a href="https://github.com/DaveCodingRitualist/Twitter-Clone" class="btn btn-outline-secondary"><i class="bi bi-code-slash"></i></a>
+    </div>
+  </div>
+     
+    </div>
     <div class="col-md-4">
       <div class="card mt-3">
     <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/html_netflix.png" class="card-img-top" alt="..." class="img-fluid">
@@ -147,18 +170,146 @@
       <h5 class="card-title">Nextlix landing Page</h5>
       <p class="card-text">I built this with HTML and CSS</p>
       <a href="https://netlix-by-dave.netlify.app/" target="_blank" class="btn btn-primary">View Website</a>
-      <a href="#" class="btn btn-outline-primary"><i class="bi bi-code-slash"></i></a>
+      <a href="https://github.com/DaveCodingRitualist/netflix" class="btn btn-outline-primary"><i class="bi bi-code-slash"></i></a>
+    </div>
+  </div>
+     
+    </div>
+    <div class="col-md-4">
+      <div class="card mt-3">
+    <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/html_netflix.png" class="card-img-top" alt="..." class="img-fluid">
+    <div class="card-body">
+      <h5 class="card-title">Nextlix landing Page</h5>
+      <p class="card-text">I built this with HTML and CSS</p>
+      <a href="https://netlix-by-dave.netlify.app/" target="_blank" class="btn btn-primary">View Website</a>
+      <a href="https://github.com/DaveCodingRitualist/netflix" class="btn btn-outline-primary"><i class="bi bi-code-slash"></i></a>
+    </div>
+  </div>
+     
+    </div>
+    <div class="col-md-4">
+      <div class="card mt-3">
+    <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/html_netflix.png" class="card-img-top" alt="..." class="img-fluid">
+    <div class="card-body">
+      <h5 class="card-title">Cause and Effect Snart Bar </h5>
+      <p class="card-text">I built this with HTML and CSS</p>
+      <a href="https://netlix-by-dave.netlify.app/" target="_blank" class="btn btn-primary">View Website</a>
+      <a href="https://github.com/DaveCodingRitualist/netflix" target="_blank" class="btn btn-outline-primary"><i class="bi bi-code-slash"></i></a>
+    </div>
+  </div>
+     
+    </div>
+    <div class="col-md-4">
+      <div class="card mt-3">
+    <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/html_netflix.png" class="card-img-top" alt="..." class="img-fluid">
+    <div class="card-body">
+      <h5 class="card-title">Nextlix landing Page</h5>
+      <p class="card-text">I built this with HTML and CSS</p>
+      <a href="https://netlix-by-dave.netlify.app/" target="_blank" class="btn btn-primary">View Website</a>
+      <a href="https://github.com/DaveCodingRitualist/netflix" target="_blank" class="btn btn-outline-primary"><i class="bi bi-code-slash"></i></a>
+    </div>
+  </div>
+     
+    </div>
+    <div class="col-md-4">
+      <div class="card mt-3">
+    <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/html_netflix.png" class="card-img-top" alt="..." class="img-fluid">
+    <div class="card-body">
+      <h5 class="card-title">Nextlix landing Page</h5>
+      <p class="card-text">I built this with HTML and CSS</p>
+      <a href="https://netlix-by-dave.netlify.app/" target="_blank" class="btn btn-primary">View Website</a>
+      <a href="https://github.com/DaveCodingRitualist/netflix" target="_blank" class="btn btn-outline-primary"><i class="bi bi-code-slash"></i></a>
+    </div>
+  </div>
+     
+    </div>
+    <div class="col-md-4">
+      <div class="card mt-3">
+    <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/html_netflix.png" class="card-img-top" alt="..." class="img-fluid">
+    <div class="card-body">
+      <h5 class="card-title">Nextlix landing Page</h5>
+      <p class="card-text">I built this with HTML and CSS</p>
+      <a href="https://netlix-by-dave.netlify.app/" target="_blank" class="btn btn-primary">View Website</a>
+      <a href="https://github.com/DaveCodingRitualist/netflix" target="_blank" class="btn btn-outline-primary"><i class="bi bi-code-slash"></i></a>
+    </div>
+  </div>
+     
+    </div>
+    <div class="col-md-4">
+      <div class="card mt-3">
+    <img src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/html_netflix.png" class="card-img-top" alt="..." class="img-fluid">
+    <div class="card-body">
+      <h5 class="card-title">Nextlix landing Page</h5>
+      <p class="card-text">I built this with HTML and CSS</p>
+      <a href="https://netlix-by-dave.netlify.app/" target="_blank" class="btn btn-primary">View Website</a>
+      <a href="https://github.com/DaveCodingRitualist/netflix" target="_blank" class="btn btn-outline-primary"><i class="bi bi-code-slash"></i></a>
     </div>
   </div>
      
     </div>
   
-   
-  
   </div>
- 
+<!-- LET'S CONNECT SECTION -->
+<section>
+  <div class="container  ">
+    <div class="card  my-5 p">
+      <div class="card-body px- text-center">
+        <h1 class="text-center">Let's Connect !</h1>
+        <p class="lead">Would like to connect with fellow developers, employers or anyone looking for web development done</p>
+        <a href="https://github.com/DaveCodingRitualist" target="_blank"  class="fs-3"><i class="bi bi-github m-2"></i></a>
+        <a href="https://www.linkedin.com/in/dave-fortune-62272116a/" target="_blank"  class="fs-3"><i class="bi bi-linkedin m-2"></i></a>
+        <a href="https://web.facebook.com/dkwadju" target="_blank"  class="fs-3"><i class="bi bi-facebook m-2"></i></a>
+        <a href="#" target="_blank" class="fs-3"><i class="bi bi-instagram m-2"></i></a>
+        <div class="  ">
+          <form class="text-start pt-3 mx-auto mb-3 w-50  ">
+          <div class="mb-3">
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your Email">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="subject" placeholder="Subject">
+          </div>
+          <div class="mb-3">
+            <div class="form-floating">
+              <textarea class="form-control h-75" rows="5" placeholder="Enter message here" id="floatingTextarea"></textarea>
+              <label for="floatingTextarea">Message</label>
+            </div>
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        </div>
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+
   
 </div>
-    
+<footer>
+  <div class="container p-3 text-center text-white bg-dark">
+    <p class="" style="font-size: .9rem;">Developed by Dave Kwadju Lafortune</p>
+  </div>
+</footer>
+    <script>
+       window.addEventListener("scroll", () => {
+        const header = document.querySelector("header");
+        header.classList.toggle("scrolling", window.scrollY > 0);
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed('#typed', {
+        strings: ['Full stack developper.', 'Web designer.',  'Software ingineer.'],
+        loop: true,
+        typeSpeed: 40,
+        
+
+      });
+    </script>
   </body>
 </html>

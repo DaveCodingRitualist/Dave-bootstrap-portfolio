@@ -1,0 +1,18 @@
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .connect{
+      width: 50%;
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .connect{
+        width: 100%;
+      }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    .connect{
+        width: 100%;
+      }
+}
